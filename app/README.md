@@ -14,4 +14,8 @@ The application uses SQLite for local data storage. SQLite was chosen because it
 3. Select an Android emulator or connected Android device.
 4. Click the Run button in Android Studio.
 5. The application will install and launch on the selected device.
-6. Version 1.1 - Updated app documentation.
+
+
+Version 1.1 - Updated app documentation.
+
+Version 1.2 - Added pantry management features.
