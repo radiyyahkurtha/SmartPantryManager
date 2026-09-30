@@ -27,3 +27,5 @@ Version 1.4 - Added SQLite database persistence.
 Version 1.5 - Added ingredient editing and deletion.
 
 Version 1.6 - Added settings screen.
+
+Version 1.7 - Improved pantry ingredient management.
