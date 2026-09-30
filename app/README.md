@@ -19,3 +19,5 @@ The application uses SQLite for local data storage. SQLite was chosen because it
 Version 1.1 - Updated app documentation.
 
 Version 1.2 - Added pantry management features.
+
+8. Version 1.3 - Added recipe suggestions and strict ingredient matching.
