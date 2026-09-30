@@ -29,3 +29,5 @@ Version 1.5 - Added ingredient editing and deletion.
 Version 1.6 - Added settings screen.
 
 Version 1.7 - Improved pantry ingredient management.
+
+Version 1.8 - Improved recipe suggestion functionality.
