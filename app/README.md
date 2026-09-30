@@ -25,3 +25,5 @@ Version 1.3 - Added recipe suggestions and strict ingredient matching.
 Version 1.4 - Added SQLite database persistence.
 
 Version 1.5 - Added ingredient editing and deletion.
+
+Version 1.6 - Added settings screen.
