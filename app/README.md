@@ -23,3 +23,5 @@ Version 1.2 - Added pantry management features.
 Version 1.3 - Added recipe suggestions and strict ingredient matching.
 
 Version 1.4 - Added SQLite database persistence.
+
+Version 1.5 - Added ingredient editing and deletion.
