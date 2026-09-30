@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FAF7FC">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#4C0968"
+        android:title="Smart Pantry Manager"
+        android:titleTextColor="#FFFFFF" />
+
+    <!-- Dashboard Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:gravity="center_horizontal">
+
+            <!-- App Title -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Smart Pantry Manager"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#4C0968"
+                android:layout_marginTop="45dp" />
+
+            <!-- Welcome -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome to your pantry"
+                android:textSize="16sp"
+                android:textColor="#666666"
+                android:layout_marginTop="8dp" />
+
+            <!-- Dashboard Heading -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dashboard"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginTop="35dp" />
+
+            <!-- Manage Ingredients -->
+            <Button
+                android:id="@+id/ingredientsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manage Ingredients"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:layout_marginTop="30dp"
+                android:minHeight="55dp" />
+
+            <!-- Suggested Recipes -->
+            <Button
+                android:id="@+id/recipesButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Suggested Recipes"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"
+                android:minHeight="55dp" />
+
+            <!-- Check Stock -->
+            <Button
+                android:id="@+id/stockButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Check Stock"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"
+                android:minHeight="55dp" />
+
+            <!-- Settings -->
+            <Button
+                android:id="@+id/settingsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Settings"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"
+                android:minHeight="55dp" />
+
+            <!-- Logout -->
+            <Button
+                android:id="@+id/logoutButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Logout"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"
+                android:minHeight="55dp" />
+
+            <!-- Footer -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manage your ingredients, stock and recipes in one place."
+                android:textSize="12sp"
+                android:textColor="#777777"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
